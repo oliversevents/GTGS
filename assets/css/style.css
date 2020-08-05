@@ -3,37 +3,81 @@
 
 /*----------------------Colors*/
 
-.navbar {
-    margin: 0;
-    background-color: #0064bd;
+.bg-header-color {
+    background-color: #03447a;
+}
+
+.logo-bg-color {
+    background-color: #03447a;
 }
 
 /*----------------------Header*/
 
+.logo {
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .society-name {
-    background-color: #0064bd;
     color: white;
     text-align: center;
-    margin: 0;
+    padding-top: 50px;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    padding-bottom: 80px;
+    padding-left: 25px;
 }
 
 .society-name h1 {
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Raleway', sans-serif;
-}
-
-.logo {
-    border-radius: 25px;
+    font-size: 48px;
 }
 
 .nav-link {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     color: white;
-    text-align: center;
+    text-align: right;
     vertical-align: center;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 80px;
+    padding-left: 25px;
+}
+
+
+
+/*----------------------Hero Image*/
+
+.hero-image {
+  height: 600px;
+  width: 100%;
+  background: url('/assets/images/hero-image.jpg') no-repeat center center;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.hero-image-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes hero-zoom {
+  from {
+    transform: scale(1.4);
+  }
+  to {
+    transform: scale(1.6);
+  }
 }
