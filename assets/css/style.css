@@ -4,10 +4,26 @@
 /*----------------------Colors*/
 
 .navbar {
+    margin: 0;
     background-color: #0064bd;
 }
 
 /*----------------------Header*/
+
+.society-name {
+    background-color: #0064bd;
+    color: white;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.society-name h1 {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
 
 .logo {
     border-radius: 25px;
