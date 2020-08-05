@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900');
 
 
 /*----------------------Colors*/
 
 .navbar {
-    background-color: #010375;
+    background-color: #0064bd;
 }
 
 /*----------------------Header*/
 
 .logo {
     border-radius: 25px;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Raleway', sans-serif;
 }
