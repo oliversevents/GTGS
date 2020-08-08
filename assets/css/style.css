@@ -4,11 +4,11 @@
 /*----------------------Colors*/
 
 .bg-header-color {
-    background-color: #03447a;
+    background-color: #4169e1;
 }
 
 .logo-bg-color {
-    background-color: #03447a;
+    background-color: #4169e1;
 }
 
 /*----------------------Header*/
@@ -26,7 +26,7 @@
 }
 
 .society-name {
-    color: white;
+    color: #c0c0c0;
     text-align: center;
     padding-top: 50px;
     text-align: center;
@@ -44,7 +44,7 @@
 .nav-link {
     font-size: 26px;
     font-weight: 600;
-    color: white;
+    color: #c0c0c0;
     text-align: right;
     vertical-align: center;
     font-family: 'Raleway', sans-serif;
@@ -52,7 +52,63 @@
     padding-left: 25px;
 }
 
+/*----------------------Footer*/
 
+.footer-sub {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: #c0c0c0;
+}
+
+footer {
+    background-color: #4169e1;
+    color: #c0c0c0;
+    min-height: 120px;
+    margin: 0;
+}
+
+.application-pdf i {
+    font-size: 18px;
+    color: #c0c0c0;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.application-pdf i:hover {
+    color: #ffcba4;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #c0c0c0;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ffcba4;
+}
+
+#footer-details {
+    padding: 20px;
+}
 
 /*----------------------Hero Image*/
 
@@ -75,9 +131,28 @@
 
 @keyframes hero-zoom {
   from {
-    transform: scale(1.4);
+    transform: scale(1.8);
   }
   to {
-    transform: scale(1.6);
+    transform: scale(2);
   }
+}
+
+.hero-image-text {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+
+  width: 350px;
+  height: 230px;
+  
+  padding-top: 40px;
+  padding-left: 10px;
+
+  color: #68717e;
+  background-color: rgba(255, 203, 164, .8);
+
+  bottom: 30px;
+  right: 30px;
+
+  position: absolute;
 }
