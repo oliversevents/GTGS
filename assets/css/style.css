@@ -191,27 +191,48 @@ footer {
 }
 
 .champ-link {
-    margin: 10px auto;
+    margin: auto;
     border: 3px solid black;
     border-radius: 5px; 
+    background-color:  #ddd3c3;
 }
 
 .match-link {
-    margin: 10px auto;
+    margin: auto;
     border: 3px solid black;
     border-radius: 5px;
+    background-color:  #ddd3c3;
 }
 
 .stats-link {
-    margin: 10px auto;
+    margin: auto;
     border: 3px solid black;
     border-radius: 5px;
+    background-color:  #ddd3c3;
 }
 
 .link-heading {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    color: #68717e;
+    color: #c0c0c0;
     padding-top: 8px;
+}
+
+.champ-link-image {
+    height: 220px;
+    width: 98%;
+    margin: 1%;
+}
+
+.match-link-image {
+    height: 220px;
+    width: 98%;
+    margin: 1%;
+}
+
+.stats-link-image {
+    height: 220px;
+    width: 98%;
+    margin: 1%;
 }
