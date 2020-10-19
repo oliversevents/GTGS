@@ -268,3 +268,12 @@ footer {
 .championship-explained p {
     text-decoration: none;
 }
+
+
+.gallery-images {
+    clear: both;
+}
+
+.gallery-images img {
+    width: 100%;
+}
