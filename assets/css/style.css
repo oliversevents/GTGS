@@ -259,10 +259,12 @@ footer {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #68717e;
-    text-decoration: underline;
-    text-decoration-color: #68717e;
 }
 
 .championship-explained {
     margin: 15px;
+}
+
+.championship-explained p {
+    text-decoration: none;
 }
