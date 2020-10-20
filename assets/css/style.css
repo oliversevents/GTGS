@@ -269,6 +269,34 @@ footer {
     text-decoration: none;
 }
 
+/*----------------------Stats page*/
+
+.stats-page-title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #68717e;
+    text-decoration: underline;
+    text-decoration-color:#68717e;
+    margin-bottom: 15px;
+}
+
+.stats-page-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.stats-explained {
+    margin: 15px;
+}
+
+.stats-explained p {
+    text-decoration: none;
+}
+
+
+
+/*----------------------Gallery page*/
 
 .gallery-images {
     clear: both;
