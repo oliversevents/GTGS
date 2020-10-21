@@ -307,3 +307,24 @@ footer {
     height: auto;
     display: block;
 }
+
+
+/*----------------------Contact page*/
+
+.contact-heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #68717e;
+    text-decoration: underline;
+    text-decoration-color:#68717e;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.contact-form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #68717e;
+    padding: 10px;
+}
