@@ -96,10 +96,10 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 24px;
     line-height: 7px;
     text-align: center;
-    color: #c0c0c0;
+    color: #888888;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
