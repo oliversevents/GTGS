@@ -57,7 +57,7 @@
 .footer-sub {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    color: #c0c0c0;
+    color: #888888;
     text-align: center;
 }
 
@@ -92,8 +92,8 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 24px;
